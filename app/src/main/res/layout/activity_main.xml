@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="120dp"
+        android:src="@drawable/flashlight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/onOff"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="502dp"
+        android:layout_marginLeft="192dp"
+        android:background="@drawable/background_button"
+        android:text="OFF"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
+
